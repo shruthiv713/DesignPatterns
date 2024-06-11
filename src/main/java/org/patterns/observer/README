@@ -1,0 +1,8 @@
+The Observer pattern defines a one-to-may dependency between objects, so that when one object changes, all of its
+dependents are notified and updated.
+ It is used to achieve loose coupling between the Subject and the Observers, or Publisher and Subscribers.
+  (2 objects interact having very little knowledge of each other)
+New Observers can be added to the Subject without modifying it.
+Subjects only need to know minimal information about the Observer.
+Changes to either Subject or Observers will not affect each other.
+

@@ -1,0 +1,7 @@
+
+This example implements the Decorator Pattern.
+The Decorator Pattern attaches additional responsibilities to an object dynamically using Composition.
+Decorators provide a flexible alternative to subclassing for extending functionality.
+We use inheritance to achieve type-matching, not to get behavior. ICondimentDecorator extends IBeverage.
+
+Creates flexible design

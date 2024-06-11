@@ -1,0 +1,8 @@
+This example illustrates the Strategy Pattern. It defines a family of algorithms, encapsulates each one, and makes them
+interchangeable. Strategy lets the algorithm vary independently of the client using it.
+Principles used -
+"Identify aspects of your system that varies that separate them from what stays the same"
+"Program to an interface not an implementation"  - Allows you to exploit polymorphism by programming to a supertype,
+ so that the actual runtime object isn't locked to the code.
+ Use an interface as a means of classifying common traits and behaviors that are exhibited by potentially
+ many non-related classes.
