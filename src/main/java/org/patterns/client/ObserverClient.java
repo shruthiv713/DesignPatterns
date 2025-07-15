@@ -1,7 +1,6 @@
 package org.patterns.client;
 
-import org.patterns.decorator.*;
-import org.patterns.observer.*;
+import org.patterns.behavioral.observer.*;
 
 public class ObserverClient {
     public static void invoke() {

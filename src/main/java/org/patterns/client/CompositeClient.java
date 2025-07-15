@@ -1,12 +1,8 @@
 package org.patterns.client;
 
-import org.patterns.composite.Box;
-import org.patterns.composite.IComponent;
-import org.patterns.composite.Item;
-import org.patterns.strategy.AmericanOlympian;
-import org.patterns.strategy.ChineseOlympian;
-import org.patterns.strategy.IndianOlympian;
-import org.patterns.strategy.Olympian;
+import org.patterns.structural.composite.Box;
+import org.patterns.structural.composite.IComponent;
+import org.patterns.structural.composite.Item;
 
 public class CompositeClient {
     public static void invoke() {

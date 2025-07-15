@@ -1,12 +1,9 @@
 package org.patterns.client;
 
-import org.patterns.observer.Boyfriend;
-import org.patterns.observer.TeddyBearStock;
-import org.patterns.observer.TeddyFanatic;
-import org.patterns.strategy.AmericanOlympian;
-import org.patterns.strategy.ChineseOlympian;
-import org.patterns.strategy.IndianOlympian;
-import org.patterns.strategy.Olympian;
+import org.patterns.structural.strategy.AmericanOlympian;
+import org.patterns.structural.strategy.ChineseOlympian;
+import org.patterns.structural.strategy.IndianOlympian;
+import org.patterns.structural.strategy.Olympian;
 
 public class StrategyClient {
     public static void invoke() {

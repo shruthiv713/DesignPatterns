@@ -1,6 +1,6 @@
 package org.patterns.client;
 
-import org.patterns.decorator.*;
+import org.patterns.structural.decorator.*;
 
 public class DecoratorClient {
     public static void invoke() {
