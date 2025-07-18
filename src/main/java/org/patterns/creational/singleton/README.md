@@ -1,0 +1,2 @@
+The singleton pattern ensures that a class has only one instance, and provides a global point of access to it. 
+It guarantees that for a given class, there will never be more than one object instantiated throughout the application's lifecycle
