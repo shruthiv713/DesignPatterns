@@ -11,6 +11,7 @@ This allows you to:
   - Change algorithms at runtime - Swap one algorithm with another without modifying the context class
   - Add new algorithms easily - To introduce a new algorithm, you simply create a new class that implements the algorithm interface, without touching the existing code. (open-close principle)
   - Avoid conditional logic - Avoid long if-else blocks that decide which algorithm to use
+  - Decouples the client from the concrete implementation of the algorithm
 
 
 ## Design Principles used
@@ -19,8 +20,13 @@ This allows you to:
 
 ## Key Components of the Strategy Pattern
 - Context 
-  - This is the class that uses the algorithm. 
+  - This is the class that uses the algorithm. eg: Duck
   - It holds a reference of the Strategy object and delegates the execution of the algorithm to this object
   - Has a **setter method** to set the strategy at runtime.
 - Strategy - Common interface for all supported algorithms. All concrete implementations must adhere to this. Declares a method that the context will use, that will be implemented by the concrete algorithms.
 - Concrete Strategy - These are the actual implementations of the algorithms. They implement the Strategy interface
+
+In the code example, different children of Duck need to use different implementations of FlyBehavior.  
+instead of hardcoding the behavior in the context, we let the Strategy object handle the different behaviors.
+We delegate the **how**  of the different behaviors to the Strategy Interface, in this case the FlyBehavior interface.
+

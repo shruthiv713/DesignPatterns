@@ -11,8 +11,8 @@ public class DuckSimulator {
         mallardDuck.performFly();
 
         Duck rubberDuck = new RubberDuck();
-        rubberDuck.performFly();
+        rubberDuck.performFly(); // default flybehavior
         rubberDuck.setFlyBehavior(new FlyWithRocket()); //swap algorithm at runtime!
-        rubberDuck.performFly();
+        rubberDuck.performFly(); // updated one!
     }
 }
