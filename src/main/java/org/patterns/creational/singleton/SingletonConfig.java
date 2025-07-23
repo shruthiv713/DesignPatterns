@@ -6,5 +6,12 @@ public class SingletonConfig {
 
     }
 
+    private static SingletonConfig getSingletonConfig() {
+        if(singletonConfig == null) {
+            singletonConfig = new SingletonConfig();
+        }
+        return singletonConfig;
+    }
+
 
 }

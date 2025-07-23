@@ -9,3 +9,10 @@ In many applications, there are certain resources that should logically have onl
 eg: Logger - A single logging instance to write all log messages  
     Database Connection Pool - Managing a pool of database connections to optimize performance.Creating multiple pools would be resource-intensive and inefficient
     Configuration Manager - An application has a single object to manage its configuration settings
+
+## How it works
+- Make a class itself responsible for its instantiation.
+  - Private constructor - to prevent direct instantiation from outside using 'new'
+  - Static instance - to hold the single object. Static object belongs to the class. If the object wasn't static, then we would need another object to call the method that would return this object, that defeats the purpose.
+  - Static method to retrieve the instance 
+    - It checks if the instance already exists, and creates one if it doesn't exist (lazy initialization)
