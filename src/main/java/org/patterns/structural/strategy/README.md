@@ -30,3 +30,4 @@ In the code example, different children of Duck need to use different implementa
 instead of hardcoding the behavior in the context, we let the Strategy object handle the different behaviors.
 We delegate the **how**  of the different behaviors to the Strategy Interface, in this case the FlyBehavior interface.
 
+![umlExample](duck_strategy_example.png)
