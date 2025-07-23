@@ -21,6 +21,6 @@ This allows you to:
 - Context 
   - This is the class that uses the algorithm. 
   - It holds a reference of the Strategy object and delegates the execution of the algorithm to this object
-  - Has a setter method to set the strategy at runtime.
+  - Has a **setter method** to set the strategy at runtime.
 - Strategy - Common interface for all supported algorithms. All concrete implementations must adhere to this. Declares a method that the context will use, that will be implemented by the concrete algorithms.
 - Concrete Strategy - These are the actual implementations of the algorithms. They implement the Strategy interface

@@ -1,10 +1,5 @@
 package org.patterns.client;
 
-import org.patterns.structural.strategy.AmericanOlympian;
-import org.patterns.structural.strategy.ChineseOlympian;
-import org.patterns.structural.strategy.IndianOlympian;
-import org.patterns.structural.strategy.Olympian;
-
 public class StrategyClient {
     public static void invoke() {
         System.out.println("Welcome to the Olympics!");
