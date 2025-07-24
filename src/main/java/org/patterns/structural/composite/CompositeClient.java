@@ -1,11 +1,7 @@
-package org.patterns.client;
-
-import org.patterns.structural.composite.Box;
-import org.patterns.structural.composite.IComponent;
-import org.patterns.structural.composite.Item;
+package org.patterns.structural.composite;
 
 public class CompositeClient {
-    public static void invoke() {
+    public static void main(String[] args) {
         System.out.println("Welcome to Amazon!");
         Box shippingBox = new Box("ShippingBox");
         IComponent phone = new Item("mobile", 1000);

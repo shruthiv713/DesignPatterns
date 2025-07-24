@@ -5,7 +5,6 @@ without altering its original structure
 Think of it as adding wrapping paper, ribbons or bows to a gift. The original gift remains intact but its appearance or even purpose (now it's a bday gift instead of a box) are enhanced by adding these decorations.
 
 
-
 ## Core problem it solves
 - Avoid "Subclassing Hell" or "Class Explosion" - If you have a base class and want to extend its functionality by adding subclasses, you quickly run into a combinatorial explosion of subclasses.  
     -  If you have a Coffee and want to add Milk, Sugar, and Caramel, you'd need:
@@ -43,3 +42,5 @@ Creates flexible design - Flexibility: You can combine multiple decorators in va
     - Implement the Decorator class and adds specific responsibilities/functions.
     - They typically add their own behavior and then call the corresponding method on the wrapped object
     - eg: Sugar, Ginger
+
+![uml](decorator_example.png)
