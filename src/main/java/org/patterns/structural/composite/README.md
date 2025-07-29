@@ -25,4 +25,8 @@ The Composite objects also maintain a collection of Component objects, allowing 
     - The common interface for both individual objects and composite ones
 2. Leaf object
  - Represents the individual objects in the composition
-3. Composite object that contat
+3. Composite object
+   - Stores child components
+   - Implements the Component Interface
+   - Implements the methods in the component interface by typically delegating them to their children.
+   - Provides methods for adding and removing new child components
