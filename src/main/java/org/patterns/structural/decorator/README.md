@@ -11,7 +11,7 @@ Think of it as adding wrapping paper, ribbons or bows to a gift. The original gi
       - MilkCoffee, SugarCoffee, CaramelCoffee, MilkSugarCoffee, MilkCaramelCoffee, MilkSugarCaramelCoffee... and so on.
       - This would be an explosion of classes, and static functionality.
     - Subclassing adds behavior at compile time. What if you want to add an add-on dynamically at runtime?
-    - The decorator pattern allows you to stack features like layers instead of creating a new class for every combination.
+    - The decorator pattern allows you to ** stack features like layers ** instead of creating a new class for every combination.
     - IBeverage beverage = new Ginger(new Sugar(new Tea(())));
 
 ## Core Idea

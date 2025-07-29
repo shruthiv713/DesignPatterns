@@ -9,7 +9,7 @@ Think of it like a power adapter you use when traveling. You have a device with 
 You have a client that expects data in a particular format/calls methods with a specific signature. Now we need to integrate  from a 3rd party library. But the 3rd party library does not comply with the client's expected interface.
 Then you have an adapter class in the middle that acts as a translator for the two.
 eg: You have a client that expects String data to be returned when XML data is given as input. But the 3-rd party interface expects JSON as input and gives JSON as output.
-In this scenario, you'll have a Adapter class in the middle that performs the translation.
+In this scenario, you'll have an Adapter class in the middle that performs the translation.
 
 ## Key Components
 1. Target (or Client interface)
