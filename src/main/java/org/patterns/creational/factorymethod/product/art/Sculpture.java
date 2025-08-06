@@ -10,6 +10,7 @@ public class Sculpture implements ArtPiece {
         this.title = title;
         this.artist = artist;
         this.material = material;
+        System.out.println("Creating a Sculpture: \"" + title + "\" by " + artist + " (Material: " + material + ")");
     }
 
     @Override

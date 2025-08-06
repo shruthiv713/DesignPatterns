@@ -9,6 +9,8 @@ public class Painting implements ArtPiece {
         this.title = title;
         this.artist = artist;
         this.medium = medium;
+        System.out.println("Creating a Painting: " + title + " by " + artist + " using " + medium + " medium.");
+
     }
 
     @Override
