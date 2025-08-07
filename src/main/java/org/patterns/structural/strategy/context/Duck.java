@@ -9,7 +9,7 @@ public abstract class Duck {
         System.out.println("All Ducks swim!");
     }
     public void performFly() {
-        flyBehavior.fly(); // delegates flying to a seperate behavior object
+        flyBehavior.fly(); // delegates flying to a separate behavior object
     }
     public void setFlyBehavior(FlyBehavior flyBehavior) {
         this.flyBehavior = flyBehavior;
