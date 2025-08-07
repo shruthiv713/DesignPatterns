@@ -12,7 +12,7 @@ Factory method pattern adheres to the Open-Close principle while Simple Factory 
 
 ## Key Components of Factory Method Pattern
 
-- Product  (Interface/Abstract class) - 
+- Product  (Interface/Abstract class) -  
   - Declares the interface for the object that the factory method will create
   - eg: Shape
 - Concrete Product - 
