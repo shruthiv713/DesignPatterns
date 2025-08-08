@@ -2,6 +2,10 @@ package org.patterns.behavioral.state.states;
 
 import org.patterns.behavioral.state.GumBallMachine;
 
+/**
+ * State representing the gumball machine when it is sold out of gumballs.
+ * Handles actions specific to the 'sold out' state.
+ */
 public class SoldOutState implements State{
 
     GumBallMachine gumBallMachine;

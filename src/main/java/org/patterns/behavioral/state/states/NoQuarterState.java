@@ -2,6 +2,10 @@ package org.patterns.behavioral.state.states;
 
 import org.patterns.behavioral.state.GumBallMachine;
 
+/**
+ * State representing the gumball machine when no quarter has been inserted.
+ * Handles actions specific to the 'no quarter' state.
+ */
 public class NoQuarterState implements State {
 
     GumBallMachine gumBallMachine;

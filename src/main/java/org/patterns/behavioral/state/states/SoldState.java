@@ -2,6 +2,10 @@ package org.patterns.behavioral.state.states;
 
 import org.patterns.behavioral.state.GumBallMachine;
 
+/**
+ * State representing the gumball machine after a sale has occurred.
+ * Handles actions specific to the 'sold' state, such as dispensing a gumball.
+ */
 public class SoldState implements State{
 
     GumBallMachine gumBallMachine;

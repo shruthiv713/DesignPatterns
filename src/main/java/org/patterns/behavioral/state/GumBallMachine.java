@@ -2,6 +2,10 @@ package org.patterns.behavioral.state;
 
 import org.patterns.behavioral.state.states.*;
 
+/**
+ * Represents a gumball vending machine that changes its behavior based on its internal state.
+ * Implements the State design pattern by delegating actions to state objects.
+ */
 public class GumBallMachine {
 
     int count;
