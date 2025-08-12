@@ -6,7 +6,9 @@ Instead of using a long list of if-else conditionals based on the state, the beh
 The core principle behind the State design pattern is to abstract out the state-related behaviour in a separate class  
 State related behaviors are delegated to the State classes.
 
-The core idea is that an object's behavior is determined by its state. For example, a LightSwitch object can behave differently depending on whether it's in an On state or an Off state. 
+The core idea is that an object's behavior is determined by its state. For example, a LightSwitch object can behave differently depending on whether it's in an On state or an Off state.  
+
+This is the core principle of the State pattern - encapsulating state-specific behavior in separate classes while maintaining a uniform interface for the context (GumBallMachine) to interact with them
 
 ## Core Components
 
